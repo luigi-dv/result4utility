@@ -31,7 +31,7 @@ class Tools(object):
         try:
             for p in props:
                 del target[p]
-            self.__dictionary = target
+            self.__dictionary.update(target)
         except Exception:
             pass
         return self.__dictionary

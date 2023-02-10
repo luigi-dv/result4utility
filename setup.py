@@ -14,7 +14,7 @@ long_description = (root_dir / "README.md").read_text()
 setup(
     name='result4utility',
     packages=['result4utility'],
-    version='0.1.1',
+    version='0.1.2',
     description='Result For Utility Tools',
     author='Luigelo Davila Vilchez',
     author_email='luigelo@ldvloper.com',
